@@ -1,3 +1,9 @@
+/*
+We can use append later to add questions to an already existing quiz using 
+fptr = fopen("filename.txt", "a"); 
+a is for append. 
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 
