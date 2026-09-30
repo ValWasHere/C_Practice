@@ -35,7 +35,7 @@ int main(){
             char optionA[OPTION_LEN], optionB[OPTION_LEN], optionC[OPTION_LEN], optionD[OPTION_LEN];
             char answer;//a, b, c, d
 
-            for(int i = 0; i < numQuestions; i++){
+            for(int i = 0; i < numQuestions; i++){//seems like it is reading text correctly but is not writing to the file correctly
                 
                 printf("\nQuestion %d\n", i + 1);
 
