@@ -2,6 +2,21 @@
 We can use append later to add questions to an already existing quiz using 
 fptr = fopen("filename.txt", "a"); 
 a is for append. 
+
+CONVERSION SPECIFIERS
+NEGATED SCANSET
+%[^\n] tells scanf to read everything until it hits a newline 
+[ start the scanset
+^ NOT
+\n the character to avoid
+] closes the bracket
+
+POSITIVE SCANSET
+%[abc] read only abc and stop if you hit anything else
+[start the scanset 
+abc characters to read
+] closes bracket
+
 */
 
 #include <stdio.h>
